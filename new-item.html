@@ -34,7 +34,20 @@
         <i class="list-bar__icon fa-solid fa-circle-minus"></i>
         <div class="list-bar__bought">2/3 comprados</div>
       </section>
-      <section class="form"></section>
+      <section class="form">
+        <h2 class="form__title">Añadir artículo</h2>
+        <form class="form__container">
+          <div class="form__form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="form__form-group">
+            <label for="price">Precio:</label>
+            <span><input type="text" id="price" /> €</span>
+          </div>
+          <button class="form__button" type="submit">Añadir</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
