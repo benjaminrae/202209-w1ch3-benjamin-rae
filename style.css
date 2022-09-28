@@ -64,6 +64,7 @@ main {
 .list-bar__icon,
 .list-bar__bought {
   color: white;
+  font-size: 1.4rem;
 }
 
 .list {
