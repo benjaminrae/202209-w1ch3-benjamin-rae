@@ -36,10 +36,16 @@ body {
 
 .header__list {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
 }
 
-.header__link {
+.header__link--bold {
+  font-weight: bold;
+}
+
+.header__link,
+.header__link--bold {
   color: var(--text-secondary);
   text-decoration: none;
 }
@@ -58,6 +64,7 @@ main {
 .list-bar__icon,
 .list-bar__bought {
   color: white;
+  font-size: 1.4rem;
 }
 
 .list {
@@ -66,6 +73,11 @@ main {
   padding: 1rem;
   display: flex;
   flex-direction: column;
+}
+
+.item__name--strikethrough,
+.item__price--strikethrough {
+  text-decoration: line-through;
 }
 
 .list__divider {
@@ -80,6 +92,17 @@ main {
   align-items: center;
 }
 
+.item__delete {
+  margin-left: 0.5rem;
+}
+
 .list__total {
   align-self: flex-end;
+  font-size: 1.2rem;
+}
+
+.list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
 }
