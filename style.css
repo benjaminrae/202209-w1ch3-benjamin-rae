@@ -75,6 +75,11 @@ main {
   flex-direction: column;
 }
 
+.item__name--strikethrough,
+.item__price--strikethrough {
+  text-decoration: line-through;
+}
+
 .list__divider {
   height: 1px;
   background-color: #000;
@@ -87,6 +92,17 @@ main {
   align-items: center;
 }
 
+.item__delete {
+  margin-left: 0.5rem;
+}
+
 .list__total {
   align-self: flex-end;
+  font-size: 1.2rem;
+}
+
+.list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
 }
