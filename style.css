@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-background: #279989;
+  --primary-backgroun: #ffc845;
+  --text-primary: #000;
+  --text-secondary: #fff;
+  --accent: #44a080;
+}
+
+html {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  color: var(--text-secondary);
+  background-color: var(--header-background);
+}
+
+.header__title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.header__list {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header__link {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
