@@ -67,7 +67,8 @@ main {
   font-size: 1.4rem;
 }
 
-.list {
+.list,
+.form {
   height: 100%;
   background-color: var(--primary-background);
   padding: 1rem;
