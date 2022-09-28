@@ -36,10 +36,16 @@ body {
 
 .header__list {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
 }
 
-.header__link {
+.header__link--bold {
+  font-weight: bold;
+}
+
+.header__link,
+.header__link--bold {
   color: var(--text-secondary);
   text-decoration: none;
 }
